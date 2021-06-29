@@ -11,9 +11,9 @@ export default class App extends React.Component {
   flipACoin = () => {
     const random = Math.floor(Math.random() * 2) + 1;
     if (random == 1) {
-      this.setState({ 'coin_result': 'head' })
+      this.setState({ coin_result: 'head' })
     } else {
-      this.setState({ 'coin_result': 'tail' })
+      this.setState({ coin_result: 'tail' })
     }
   }
   render() {
